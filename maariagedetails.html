@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .parent{
+            width:100%;
+            height: 100vh;
+            background-image: url(bg.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding-top: 80px;
+            background-attachment: fixed;
+        }
+
+        .child {
+            margin-left: 67%;
+            background-color: rgba(69, 64, 64, 0.518);
+            padding-left: 30px;
+            margin-right: 20%;
+            padding-top: 15px;
+            width:340px;
+            height: 95vh;
+            line-height: 45px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 9px;
+            
+          }
+
+        input {
+            width: 95%;
+            margin: auto;
+            border-bottom: 1px solid black;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;            
+            background-color: transparent;
+            border-color: white;
+            outline: none;
+            font-size: 28px;
+            color: white;
+        }
+        
+        span {
+            font-size: 29px;
+            padding-left: 34px;
+        }
+        button {
+            background-color: rgba(86, 80, 80, 0.518);
+            width: 87%;
+            padding:7px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid white;
+            
+        }
+
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div class="parent">
+            <div class="child">
+                <b><span>GET IN TOUCH</span></b> 
+                    <form action="">
+                    <label for="name">Name*</label>
+                    <br>
+                    <input required id="name">
+                    <br>
+                    <label for="phone">Mobile No.*</label>
+                    <br>
+                    <input type="number" required id="phone">
+                    <br>
+                    <Label for="email">Email Address</Label>
+                    <br>
+                    <input type="email" required id="email">
+                    <br>
+                    <label for="pre-wed">Pre wedding</label>
+                    <br>
+                    <input id="pre-wed">
+                    <br>
+                    <label for="message">Your Message</label>
+                    <br>
+                    <input id="message">
+                    <br>
+                    <br>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <audio  loop autoplay controls >
+        <source src="Untitled video - Made with Clipchamp-[AudioTrimmer.com]-[AudioTrimmer.com].mp3" type="audio/mp3">
+    </audio>
+    
+    
+</body>
+</html>
